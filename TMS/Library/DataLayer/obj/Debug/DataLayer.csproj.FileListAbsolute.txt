@@ -1,0 +1,15 @@
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\bin\Debug\DataLayer.dll
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\bin\Debug\DataLayer.pdb
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\bin\Debug\EntityFramework.dll
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\bin\Debug\ModelEntity.dll
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\bin\Debug\ModelEntity.pdb
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\bin\Debug\EntityFramework.xml
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.dll
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.pdb
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\bin\Debug\DataLayer.dll.config
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.Migrations.UserTable.resources
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.Cache
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.Migrations.UserTableNameChange.resources

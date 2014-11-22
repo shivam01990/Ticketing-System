@@ -1,0 +1,7 @@
+D:\Development Area\TMS\Ticketing-System\TMS\Library\ModelEntity\bin\Debug\ModelEntity.dll
+D:\Development Area\TMS\Ticketing-System\TMS\Library\ModelEntity\bin\Debug\ModelEntity.pdb
+D:\Development Area\TMS\Ticketing-System\TMS\Library\ModelEntity\obj\Debug\ModelEntity.dll
+D:\Development Area\TMS\Ticketing-System\TMS\Library\ModelEntity\obj\Debug\ModelEntity.pdb
+D:\Development Area\TMS\Ticketing-System\TMS\Library\ModelEntity\bin\Debug\EntityFramework.dll
+D:\Development Area\TMS\Ticketing-System\TMS\Library\ModelEntity\bin\Debug\EntityFramework.xml
+D:\Development Area\TMS\Ticketing-System\TMS\Library\ModelEntity\obj\Debug\ModelEntity.csprojResolveAssemblyReference.cache
