@@ -11,13 +11,16 @@ namespace ModelEntity
     public class UserModel
     {
         public int Id { get; set; }
+        [Required]
         public int UserId { get; set; }
         public string UserName { get; set; }
         public string Email { get; set; }
         public string Address { get; set; }
         public string PhoneNo { get; set; }
-        public int District { get; set; }
-        public int State { get; set; }
+        public int DistrictId { get; set; }
+        public int StateId { get; set; }
+        public virtual StateModel State { get; set; }
+        public virtual DistrictModel District { get; set; }
         
     }
 }

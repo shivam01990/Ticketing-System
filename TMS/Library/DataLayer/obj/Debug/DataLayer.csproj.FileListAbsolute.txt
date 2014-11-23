@@ -13,3 +13,4 @@ D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\bin\Debug\DataLay
 D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.Migrations.UserTable.resources
 D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.Cache
 D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.Migrations.UserTableNameChange.resources
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.Migrations.StateDistrictTable.resources

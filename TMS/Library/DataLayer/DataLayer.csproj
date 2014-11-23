@@ -60,6 +60,10 @@
     <Compile Include="Migrations\201411222058207_UserTableNameChange.Designer.cs">
       <DependentUpon>201411222058207_UserTableNameChange.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201411230531224_StateDistrictTable.cs" />
+    <Compile Include="Migrations\201411230531224_StateDistrictTable.Designer.cs">
+      <DependentUpon>201411230531224_StateDistrictTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="TMSContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201411222058207_UserTableNameChange.resx">
       <DependentUpon>201411222058207_UserTableNameChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411230531224_StateDistrictTable.resx">
+      <DependentUpon>201411230531224_StateDistrictTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
