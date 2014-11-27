@@ -185,6 +185,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Account_bakController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
@@ -194,6 +195,34 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Bootstrap\assets\brand\bootstrap-outline.svg" />
+    <Content Include="Content\Bootstrap\assets\brand\bootstrap-punchout.svg" />
+    <Content Include="Content\Bootstrap\assets\brand\bootstrap-solid.svg" />
+    <Content Include="Content\Bootstrap\assets\css\docs.min.css" />
+    <Content Include="Content\Bootstrap\assets\css\src\docs.css" />
+    <Content Include="Content\Bootstrap\assets\css\src\pygments-manni.css" />
+    <Content Include="Content\Bootstrap\assets\ico\apple-touch-icon-144-precomposed.png" />
+    <Content Include="Content\Bootstrap\assets\ico\favicon.ico" />
+    <Content Include="Content\Bootstrap\assets\img\components.png" />
+    <Content Include="Content\Bootstrap\assets\img\devices.png" />
+    <Content Include="Content\Bootstrap\assets\img\sass-less.png" />
+    <Content Include="Content\Bootstrap\assets\js\customize.min.js" />
+    <Content Include="Content\Bootstrap\assets\js\docs.min.js" />
+    <Content Include="Content\Bootstrap\assets\js\raw-files.min.js" />
+    <Content Include="Content\Bootstrap\assets\js\src\application.js" />
+    <Content Include="Content\Bootstrap\assets\js\src\customizer.js" />
+    <Content Include="Content\Bootstrap\assets\js\src\ie8-responsive-file-warning.js" />
+    <Content Include="Content\Bootstrap\assets\js\vendor\blob.js" />
+    <Content Include="Content\Bootstrap\assets\js\vendor\filesaver.js" />
+    <Content Include="Content\Bootstrap\assets\js\vendor\holder.js" />
+    <Content Include="Content\Bootstrap\assets\js\vendor\jszip.min.js" />
+    <Content Include="Content\Bootstrap\assets\js\vendor\less.min.js" />
+    <Content Include="Content\Bootstrap\assets\js\vendor\uglify.min.js" />
+    <Content Include="Content\Bootstrap\dist\css\bootstrap-rtl.min.css" />
+    <Content Include="Content\Bootstrap\dist\css\bootstrap-theme.min.css" />
+    <Content Include="Content\Bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="Content\Bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Bootstrap\dist\js\bootstrap.min.js" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -250,6 +279,11 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Content\Bootstrap\dist\css\bootstrap-theme.css.map" />
+    <Content Include="Content\Bootstrap\dist\css\bootstrap.css.map" />
+    <Content Include="Content\Bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\Bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\Bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -288,15 +322,15 @@
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
-    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
-    <Content Include="Views\Account\_RemoveExternalLoginsPartial.cshtml" />
-    <Content Include="Views\Account\_SetPasswordPartial.cshtml" />
-    <Content Include="Views\Account\Login.cshtml" />
-    <Content Include="Views\Account\Manage.cshtml" />
-    <Content Include="Views\Account\Register.cshtml" />
-    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
-    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Account_Bak\_ChangePasswordPartial.cshtml" />
+    <Content Include="Views\Account_Bak\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account_Bak\_RemoveExternalLoginsPartial.cshtml" />
+    <Content Include="Views\Account_Bak\_SetPasswordPartial.cshtml" />
+    <Content Include="Views\Account_Bak\Login.cshtml" />
+    <Content Include="Views\Account_Bak\Manage.cshtml" />
+    <Content Include="Views\Account_Bak\Register.cshtml" />
+    <Content Include="Views\Account_Bak\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account_Bak\ExternalLoginConfirmation.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -304,12 +338,29 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\Shared\Copy of _Layout_bak.cshtml" />
+    <Content Include="Views\Account\Index.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Library\BusinessLayer\BusinessLayer.csproj">
+      <Project>{f114a619-de1c-4f57-ae94-5531d4bc3404}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\DataLayer\DataLayer.csproj">
+      <Project>{67721861-43d8-4739-917b-86208a6cefed}</Project>
+      <Name>DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Library\ModelEntity\ModelEntity.csproj">
+      <Project>{f70fc3ad-69e1-47dc-b87a-672bd7ccaa47}</Project>
+      <Name>ModelEntity</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

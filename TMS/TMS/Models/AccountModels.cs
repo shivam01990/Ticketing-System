@@ -86,6 +86,13 @@ namespace TMS.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        public string Email { get; set; }
+        public string Address { get; set; }
+        public string Phone { get; set; }
+        public System.Web.Mvc.SelectList State { get; set; }
+        public System.Web.Mvc.SelectList City { get; set; }
     }
 
     public class ExternalLogin

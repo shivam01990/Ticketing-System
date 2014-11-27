@@ -9,8 +9,8 @@ D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\bin\Debug\EntityF
 D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
 D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.dll
 D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.pdb
-D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\bin\Debug\DataLayer.dll.config
 D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.Migrations.UserTable.resources
 D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.Cache
 D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.Migrations.UserTableNameChange.resources
 D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\obj\Debug\DataLayer.Migrations.StateDistrictTable.resources
+D:\Development Area\TMS\Ticketing-System\TMS\Library\DataLayer\bin\Debug\DataLayer.dll.config

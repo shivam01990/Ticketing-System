@@ -12,6 +12,7 @@ namespace DataLayer
     public class TMSContext : DbContext
     {
         public DbSet<UserModel> Users { get; set; }
+        public DbSet<StateModel> State { get; set; }
         public TMSContext()
             : base("name=TMSEntities")
         {

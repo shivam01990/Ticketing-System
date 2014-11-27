@@ -85,3 +85,9 @@ D:\Development Area\TMS\Ticketing-System\TMS\TMS\obj\Debug\TMS.dll
 D:\Development Area\TMS\Ticketing-System\TMS\TMS\obj\Debug\TMS.pdb
 D:\Development Area\TMS\Ticketing-System\TMS\TMS\bin\EntityFramework.SqlServer.dll
 D:\Development Area\TMS\Ticketing-System\TMS\TMS\bin\EntityFramework.SqlServer.xml
+D:\Development Area\TMS\Ticketing-System\TMS\TMS\bin\BusinessLayer.dll
+D:\Development Area\TMS\Ticketing-System\TMS\TMS\bin\DataLayer.dll
+D:\Development Area\TMS\Ticketing-System\TMS\TMS\bin\ModelEntity.dll
+D:\Development Area\TMS\Ticketing-System\TMS\TMS\bin\BusinessLayer.pdb
+D:\Development Area\TMS\Ticketing-System\TMS\TMS\bin\DataLayer.pdb
+D:\Development Area\TMS\Ticketing-System\TMS\TMS\bin\ModelEntity.pdb

@@ -1,0 +1,11 @@
+D:\Development Area\TMS\Ticketing-System\TMS\Library\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Development Area\TMS\Ticketing-System\TMS\Library\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Development Area\TMS\Ticketing-System\TMS\Library\BusinessLayer\bin\Debug\DataLayer.dll
+D:\Development Area\TMS\Ticketing-System\TMS\Library\BusinessLayer\bin\Debug\ModelEntity.dll
+D:\Development Area\TMS\Ticketing-System\TMS\Library\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Development Area\TMS\Ticketing-System\TMS\Library\BusinessLayer\bin\Debug\DataLayer.pdb
+D:\Development Area\TMS\Ticketing-System\TMS\Library\BusinessLayer\bin\Debug\ModelEntity.pdb
+D:\Development Area\TMS\Ticketing-System\TMS\Library\BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Development Area\TMS\Ticketing-System\TMS\Library\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+D:\Development Area\TMS\Ticketing-System\TMS\Library\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Development Area\TMS\Ticketing-System\TMS\Library\BusinessLayer\obj\Debug\BusinessLayer.pdb

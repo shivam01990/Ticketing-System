@@ -5,3 +5,6 @@ D:\Development Area\TMS\Ticketing-System\TMS\Library\ModelEntity\obj\Debug\Model
 D:\Development Area\TMS\Ticketing-System\TMS\Library\ModelEntity\bin\Debug\EntityFramework.dll
 D:\Development Area\TMS\Ticketing-System\TMS\Library\ModelEntity\bin\Debug\EntityFramework.xml
 D:\Development Area\TMS\Ticketing-System\TMS\Library\ModelEntity\obj\Debug\ModelEntity.csprojResolveAssemblyReference.cache
+D:\Development Area\TMS\Ticketing-System\TMS\Library\ModelEntity\bin\Debug\ModelEntity.dll.config
+D:\Development Area\TMS\Ticketing-System\TMS\Library\ModelEntity\bin\Debug\EntityFramework.SqlServer.dll
+D:\Development Area\TMS\Ticketing-System\TMS\Library\ModelEntity\bin\Debug\EntityFramework.SqlServer.xml
