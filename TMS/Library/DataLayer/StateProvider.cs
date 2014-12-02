@@ -9,13 +9,16 @@ namespace DataLayer
 {
     public class StateProvider
     {
-        private IGenericRepository<StateModel> repository = null;
+        TMSContext db = new TMSContext();
+
 
         public List<StateModel> GetAllState()
         {
             using (TMSContext db = new TMSContext())
             {
-                return db.State.ToList();
+                   GenericRepository<StateModel> repository = new GenericRepository<StateModel>(db);
+                // return db.State.ToList();
+                return repository.SelectAll().ToList();
             }
         }
     }

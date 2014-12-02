@@ -5,11 +5,14 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Register</h2>
+<div class="col-sm-12 page-header">
+    <h1>Register User</h1>
+</div>
+
 <div class="well">
     <div class="row">
-        <div class="col-sm-4">
-            <div class="panel panel-default">
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
                 <div class="panel-heading">
                     <h3 class="panel-title">Register</h3>
                 </div>
@@ -20,62 +23,102 @@
                         @Html.ValidationSummary(true)
 
                        
+                        <div class="col-sm-12">
+                            <div class="col-sm-5">
+                                @Html.LabelFor(model => model.UserName)
+                            </div>
+                            <div class="col-sm-7">
+                                @Html.EditorFor(model => model.UserName)
+                                <div class="alert-danger">
+                                    @Html.ValidationMessageFor(model => model.UserName)
+                                </div>
+                            </div>
 
-                        <div class="editor-label">
-                            @Html.LabelFor(model => model.UserName)
                         </div>
-                        <div class="editor-field">
-                            @Html.EditorFor(model => model.UserName)
-                            @Html.ValidationMessageFor(model => model.UserName)
+                        <div class="row col-sm-12">&nbsp;</div>
+                        <div class="col-sm-12">
+                            <div class="col-sm-5">
+                                @Html.LabelFor(model => model.Password)
+                            </div>
+
+                            <div class="col-sm-7">
+                                @Html.EditorFor(model => model.Password)
+                                <div class="alert-danger">
+                                    @Html.ValidationMessageFor(model => model.Password)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row col-sm-12">&nbsp;</div>
+                        <div class="col-sm-12">
+                            <div class="col-sm-5">
+                                @Html.LabelFor(model => model.ConfirmPassword)
+                            </div>
+
+                            <div class="col-sm-7">
+                                @Html.EditorFor(model => model.ConfirmPassword)
+                                <div class="alert-danger">
+                                    @Html.ValidationMessageFor(model => model.ConfirmPassword)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row col-sm-12">&nbsp;</div>
+                        <div class="col-sm-12">
+                            <div class="col-sm-5">
+                                @Html.LabelFor(model => model.Email)
+                            </div>
+
+                            <div class="col-sm-7">
+                                @Html.EditorFor(model => model.Email)
+                                <div class="alert-danger">
+                                    @Html.ValidationMessageFor(model => model.Email)
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="editor-label">
-                            @Html.LabelFor(model => model.Password)
-                        </div>
-                        <div class="editor-field">
-                            @Html.EditorFor(model => model.Password)
-                            @Html.ValidationMessageFor(model => model.Password)
-                        </div>
+                        <div class="row col-sm-12">&nbsp;</div>
+                        <div class="col-sm-12">
+                            <div class="col-sm-5">
+                                @Html.LabelFor(model => model.Address)
+                            </div>
 
-                        <div class="editor-label">
-                            @Html.LabelFor(model => model.ConfirmPassword)
+                            <div class="col-sm-7">
+                                @Html.EditorFor(model => model.Address)
+                                <div class="alert-danger">
+                                    @Html.ValidationMessageFor(model => model.Address)
+                                </div>
+                            </div>
                         </div>
-                        <div class="editor-field">
-                            @Html.EditorFor(model => model.ConfirmPassword)
-                            @Html.ValidationMessageFor(model => model.ConfirmPassword)
-                        </div>
+                        <div class="row col-sm-12">&nbsp;</div>
+                        <div class="col-sm-12">
+                            <div class="col-sm-5">
+                                @Html.LabelFor(model => model.Phone)
+                            </div>
 
-                        <div class="editor-label">
-                            @Html.LabelFor(model => model.Email)
+                            <div class="col-sm-7">
+                                @Html.EditorFor(model => model.Phone)
+                                <div class="alert-danger">
+                                    @Html.ValidationMessageFor(model => model.Phone)
+                                </div>
+                            </div>
                         </div>
-                        <div class="editor-field">
-                            @Html.EditorFor(model => model.Email)
-                            @Html.ValidationMessageFor(model => model.Email)
-                        </div>
+                        <div class="row col-sm-12">&nbsp;</div>
+                        <div class="col-sm-12">
+                            <div class="col-sm-5">
+                                @Html.LabelFor(model => model.State)
+                            </div>
 
-                        <div class="editor-label">
-                            @Html.LabelFor(model => model.Address)
+                            <div class="col-sm-7">
+                                @Html.DropDownListFor(model => model.State, Model.State)
+                                <div class="alert-danger">
+                                    @Html.ValidationMessageFor(model => model.State)
+                                </div>
+                            </div>
                         </div>
-                        <div class="editor-field">
-                            @Html.EditorFor(model => model.Address)
-                            @Html.ValidationMessageFor(model => model.Address)
-                        </div>
-
-                        <div class="editor-label">
-                            @Html.LabelFor(model => model.Phone)
-                        </div>
-                        <div class="editor-field">
-                            @Html.EditorFor(model => model.Phone)
-                            @Html.ValidationMessageFor(model => model.Phone)
-                        </div>
-                        
-                       <div class="editor-field">
-                            @Html.DropDownListFor(model => model.State,Model.State)
-                            @Html.ValidationMessageFor(model => model.State)
-                        </div>
+                        <div class="row col-sm-12">&nbsp;</div>
+                       
 
                         <p>
-                            <input type="submit" value="Create" />
+                            <input class="btn btn-lg btn-primary" type="submit" value="Create" />
                         </p>
                        
                     }
